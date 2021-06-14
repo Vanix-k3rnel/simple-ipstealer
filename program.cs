@@ -15,6 +15,7 @@ namespace ip
         {
             Console.Title = "Pinger";
             Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine(ip);
         }
 
           public static string ip()

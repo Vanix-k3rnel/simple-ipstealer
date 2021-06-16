@@ -21,8 +21,8 @@ namespace ip
           public static string ip()
           {
             WebClient kek = new WebClient();
-            string ip kek.DownloadString("https://api.ipify.org/?format=text");
-           return ip;
+            string ip = kek.DownloadString("https://api.ipify.org/?format=text");
+            return ip;
           }
 
     }

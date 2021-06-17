@@ -14,8 +14,17 @@ namespace ip
         static void Main(string[] args)
         {
             Console.Title = "Pinger";
+            // Console color
             Console.ForegroundColor = ConsoleColor.DarkYellow;
+            // going to the string that will get the ip. and write the ip to console
             Console.WriteLine(ip);
+            Console.Readline();
+            
+            
+            
+            
+            
+            
         }
 
           public static string ip()
